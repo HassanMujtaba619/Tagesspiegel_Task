@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-06T14:53:59.711130" rpa="false" schemaversion="5">
+<suite id="s1" name="Registration" source="C:\Users\HP\Downloads\Assignment_tagesspiegel\tests\registration.robot">
+<test id="s1-t1" name="Register User on Tagesspiegel" line="9">
+<kw name="Open Tagesspiegel Website" owner="keywords">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-06T14:54:00.134045" level="INFO">Opening browser 'chrome' to base url 'https://'.</msg>
+<msg time="2024-07-06T14:54:03.836148" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-07-06T14:54:03.837163" level="FAIL">InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF710EBEEA2+31554]
+	(No symbol) [0x00007FF710E37ED9]
+	(No symbol) [0x00007FF710CF8559]
+	(No symbol) [0x00007FF710CE059E]
+	(No symbol) [0x00007FF710CDEAB5]
+	(No symbol) [0x00007FF710CDF2AC]
+	(No symbol) [0x00007FF710CFB501]
+	(No symbol) [0x00007FF710D8D33E]
+	(No symbol) [0x00007FF710D6D02A]
+	(No symbol) [0x00007FF710D8C977]
+	(No symbol) [0x00007FF710D6CDD3]
+	(No symbol) [0x00007FF710D3A33B]
+	(No symbol) [0x00007FF710D3AED1]
+	GetHandleVerifier [0x00007FF7111C8B1D+3217341]
+	GetHandleVerifier [0x00007FF711215AE3+3532675]
+	GetHandleVerifier [0x00007FF71120B0E0+3489152]
+	GetHandleVerifier [0x00007FF710F6E776+750614]
+	(No symbol) [0x00007FF710E4375F]
+	(No symbol) [0x00007FF710E3EB14]
+	(No symbol) [0x00007FF710E3ECA2]
+	(No symbol) [0x00007FF710E2E16F]
+	BaseThreadInitThunk [0x00007FFEFE4E257D+29]
+	RtlUserThreadStart [0x00007FFEFF28AF28+40]
+</msg>
+<arg>https://${environment}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2024-07-06T14:54:00.133031" elapsed="3.711745">InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF710EBEEA2+31554]
+	(No symbol) [0x00007FF710E37ED9]
+	(No symbol) [0x00007FF710CF8559]
+	(No symbol) [0x00007FF710CE059E]
+	(No symbol) [0x00007FF710CDEAB5]
+	(No symbol) [0x00007FF710CDF2AC]
+	(No symbol) [0x00007FF710CFB501]
+	(No symbol) [0x00007FF710D8D33E]
+	(No symbol) [0x00007FF710D6D02A]
+	(No symbol) [0x00007FF710D8C977]
+	(No symbol) [0x00007FF710D6CDD3]
+	(No symbol) [0x00007FF710D3A33B]
+	(No symbol) [0x00007FF710D3AED1]
+	GetHandleVerifier [0x00007FF7111C8B1D+3217341]
+	GetHandleVerifier [0x00007FF711215AE3+3532675]
+	GetHandleVerifier [0x00007FF71120B0E0+3489152]
+	GetHandleVerifier [0x00007FF710F6E776+750614]
+	(No symbol) [0x00007FF710E4375F]
+	(No symbol) [0x00007FF710E3EB14]
+	(No symbol) [0x00007FF710E3ECA2]
+	(No symbol) [0x00007FF710E2E16F]
+	BaseThreadInitThunk [0x00007FFEFE4E257D+29]
+	RtlUserThreadStart [0x00007FFEFF28AF28+40]
+</status>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2024-07-06T14:54:03.845779" elapsed="0.000000"/>
+</kw>
+<arg>${ENVIRONMENT}</arg>
+<status status="FAIL" start="2024-07-06T14:54:00.132032" elapsed="3.713747">InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF710EBEEA2+31554]
+	(No symbol) [0x00007FF710E37ED9]
+	(No symbol) [0x00007FF710CF8559]
+	(No symbol) [0x00007FF710CE059E]
+	(No symbol) [0x00007FF710CDEAB5]
+	(No symbol) [0x00007FF710CDF2AC]
+	(No symbol) [0x00007FF710CFB501]
+	(No symbol) [0x00007FF710D8D33E]
+	(No symbol) [0x00007FF710D6D02A]
+	(No symbol) [0x00007FF710D8C977]
+	(No symbol) [0x00007FF710D6CDD3]
+	(No symbol) [0x00007FF710D3A33B]
+	(No symbol) [0x00007FF710D3AED1]
+	GetHandleVerifier [0x00007FF7111C8B1D+3217341]
+	GetHandleVerifier [0x00007FF711215AE3+3532675]
+	GetHandleVerifier [0x00007FF71120B0E0+3489152]
+	GetHandleVerifier [0x00007FF710F6E776+750614]
+	(No symbol) [0x00007FF710E4375F]
+	(No symbol) [0x00007FF710E3EB14]
+	(No symbol) [0x00007FF710E3ECA2]
+	(No symbol) [0x00007FF710E2E16F]
+	BaseThreadInitThunk [0x00007FFEFE4E257D+29]
+	RtlUserThreadStart [0x00007FFEFF28AF28+40]
+</status>
+</kw>
+<kw name="Click Anmelden Link" owner="keywords">
+<status status="NOT RUN" start="2024-07-06T14:54:03.847408" elapsed="0.000000"/>
+</kw>
+<kw name="Choose Registrieren Tab" owner="keywords">
+<status status="NOT RUN" start="2024-07-06T14:54:03.848415" elapsed="0.000000"/>
+</kw>
+<kw name="Fill Registration Form" owner="keywords">
+<status status="NOT RUN" start="2024-07-06T14:54:03.849409" elapsed="0.000000"/>
+</kw>
+<kw name="Send Registration Form" owner="keywords">
+<status status="NOT RUN" start="2024-07-06T14:54:03.851925" elapsed="0.000000"/>
+</kw>
+<kw name="Get Registration Link from Email" owner="keywords">
+<var>${registration_link}</var>
+<status status="NOT RUN" start="2024-07-06T14:54:03.852937" elapsed="0.000000"/>
+</kw>
+<kw name="Open Registration Link on Website" owner="keywords">
+<arg>${registration_link}</arg>
+<status status="NOT RUN" start="2024-07-06T14:54:03.852937" elapsed="0.000000"/>
+</kw>
+<kw name="Provide Passwords" owner="keywords">
+<status status="NOT RUN" start="2024-07-06T14:54:03.854288" elapsed="0.000000"/>
+</kw>
+<kw name="Send Password Form" owner="keywords">
+<status status="NOT RUN" start="2024-07-06T14:54:03.854799" elapsed="0.000000"/>
+</kw>
+<kw name="Verify User is Logged In" owner="keywords">
+<status status="NOT RUN" start="2024-07-06T14:54:03.855894" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-07-06T14:54:00.129497" elapsed="3.726906">InvalidArgumentException: Message: invalid argument
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF710EBEEA2+31554]
+	(No symbol) [0x00007FF710E37ED9]
+	(No symbol) [0x00007FF710CF8559]
+	(No symbol) [0x00007FF710CE059E]
+	(No symbol) [0x00007FF710CDEAB5]
+	(No symbol) [0x00007FF710CDF2AC]
+	(No symbol) [0x00007FF710CFB501]
+	(No symbol) [0x00007FF710D8D33E]
+	(No symbol) [0x00007FF710D6D02A]
+	(No symbol) [0x00007FF710D8C977]
+	(No symbol) [0x00007FF710D6CDD3]
+	(No symbol) [0x00007FF710D3A33B]
+	(No symbol) [0x00007FF710D3AED1]
+	GetHandleVerifier [0x00007FF7111C8B1D+3217341]
+	GetHandleVerifier [0x00007FF711215AE3+3532675]
+	GetHandleVerifier [0x00007FF71120B0E0+3489152]
+	GetHandleVerifier [0x00007FF710F6E776+750614]
+	(No symbol) [0x00007FF710E4375F]
+	(No symbol) [0x00007FF710E3EB14]
+	(No symbol) [0x00007FF710E3ECA2]
+	(No symbol) [0x00007FF710E2E16F]
+	BaseThreadInitThunk [0x00007FFEFE4E257D+29]
+	RtlUserThreadStart [0x00007FFEFF28AF28+40]
+</status>
+</test>
+<status status="FAIL" start="2024-07-06T14:53:59.713635" elapsed="4.150242"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Registration">Registration</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-07-06T14:54:00.116256" level="ERROR">Error in file 'C:\Users\HP\Downloads\Assignment_tagesspiegel\resources\keywords.robot' on line 3: Importing library 'RPA.Email.ImapSmtp' failed: ModuleNotFoundError: No module named 'RPA'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\HP\Downloads\Assignment_tagesspiegel\venv\Scripts\robot.exe
+  C:\Users\HP\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\HP\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\HP\AppData\Local\Programs\Python\Python312
+  C:\Users\HP\Downloads\Assignment_tagesspiegel\venv
+  C:\Users\HP\Downloads\Assignment_tagesspiegel\venv\Lib\site-packages</msg>
+</errors>
+</robot>
